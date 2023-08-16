@@ -1,6 +1,8 @@
 document.getElementById("btn-menu").addEventListener("click", mostrar_menu);
 document.getElementById("back-menu").addEventListener("click", ocultar_menu);
 
+
+
 nav = document.getElementById("nav");
 background_menu = document.getElementById("back-menu");
 

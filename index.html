@@ -25,11 +25,11 @@
             <nav id="nav">
                <img src="img/logo/NILO_ LOGO.png" alt="logo">
                <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#projects">Project</a></li>
-                  <li class="cnt"><a href="#contact">Contact</a></li>
+                  <li onclick="ocultar_menu();"><a href="#home">Home</a></li>
+                  <li onclick="ocultar_menu();"><a href="#about">About</a></li>
+                  <li onclick="ocultar_menu();"><a href="#services">Services</a></li>
+                  <li onclick="ocultar_menu();"><a href="#projects">Project</a></li>
+                  <li onclick="ocultar_menu();" class="cnt"><a href="#contact">Contact</a></li>
                </ul>
             </nav>
             <a href="#contact" class="btn btn-quote">Contact us</a>
@@ -111,41 +111,36 @@
       <div class="container-service container-cardPrime div_offset" id="services">
          <div class="service card-primary">
             <div class="text-service text-cardPrime">
-               <p>QUE HACEMOS</p>
-               <h1>Servicio para darle la mejor cara a tu empresa y hogar</h1>
+               <p>WHAT DO WE DO?</p>
+               <h1>Service to give a better face to your company and home</h1>
             </div>
             <div class="container-card-services container-box-cardPrime">
                <div class="card-service box-cardPrime">
-                  <img src="img/Services/service1.jpg" alt="">
-                  <h2>Interiores</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-                  <a href="">
-                     <i class="fa-solid fa-arrow-right"></i>
-                  </a>
+                  <i class="fa-solid fa-brush"></i>
+                  <h2>Painting</h2>
+                  <ul>
+                     <li><p>Tilt up Painting interior and exterior </p></li>
+                     <li><p>Tilt up textured coating</p></li>
+                     <li><p>D9 services</p></li>
+                  </ul>
                </div>
                <div class="card-service box-cardPrime">
-                  <img src="img/Services/service2.jpg" alt="">
-                  <h2>Exteriores</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-                  <a href="">
-                     <i class="fa-solid fa-arrow-right"></i>
-                  </a>
+                  <i class="fa-solid fa-paint-roller"></i>
+                  <h2>Sealant</h2>
+                  <ul>
+                     <li><p>Vertical expansion joints</p></li>
+                     <li><p>Slab Joint sealant </p></li>
+                     <li><p>Paving joint sealant</p></li>
+                  </ul>
                </div>
                <div class="card-service box-cardPrime">
-                  <img src="img/Services/service3.jpg" alt="">
-                  <h2>Pintura</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-                  <a href="">
-                     <i class="fa-solid fa-arrow-right"></i>
-                  </a>
-               </div>
-               <div class="card-service box-cardPrime">
-                  <img src="img/Services/service4.jpg" alt="">
-                  <h2>Decoracion</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-                  <a href="">
-                     <i class="fa-solid fa-arrow-right"></i>
-                  </a>
+                  <i class="fa-solid fa-trowel-bricks"></i>
+                  <h2>Drywall</h2>
+                  <ul>
+                     <li><p>Aqui va una descripcion</p></li>
+                     <li><p>Aqui va una descripcion</p></li>
+                     <li><p>Aqui va una descripcion</p></li>
+                  </ul>
                </div>
             </div>
          </div>
@@ -155,7 +150,7 @@
          <div class="project card-primary">
             <div class="text-project text-cardPrime">
                <p>OURS PROJECTS</p>
-               <h1>CONOCE NUESTRAS ULTIMAS OBRAS</h1>
+               <h1>Meet our latest works</h1>
             </div>
             <div class="container-project container-box-cardPrime">
                <div class="card-project box-cardPrime" style="background-image: url(img/project/project1.jpg);">
@@ -187,14 +182,14 @@
          <div class="frm-contact">
             <form action="">
                <div class="name-email">
-                  <input type="text"   class="form-control" placeholder="name">
-                  <input type="email"  class="form-control" placeholder="email">
+                  <input type="text"   class="form-control" placeholder="Firstname">
+                  <input type="text"  class="form-control" placeholder="Lastname">
                </div>
-               <div class="area-tlf">
-                  <input type="text"   class="form-control" placeholder="123mts2">
+               <div class="email-tlf">
+                  <input type="email"   class="form-control" placeholder="email">
                   <input type="text"   class="form-control" placeholder="+1 123 456-6789">
                </div>
-               <textarea name="msg" cols="90" rows="5" class="form-control" placeholder="message..."></textarea>
+               <textarea name="msg" cols="90" rows="5" class="form-control" placeholder="Give us a brief description of your project..."></textarea>
                <input type="submit" class="btn-text" value="send message">
             </form>
          </div>
