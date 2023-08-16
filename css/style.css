@@ -375,7 +375,7 @@ header {
 .frm-contact div {
    margin-bottom: 8px;
 }
-.name-email, .area-tlf {
+.name-email, .email-tlf {
    width: 100%;
    display: flex;
    display: flex;
@@ -494,6 +494,17 @@ header {
    .about .img-about {
       display: flex;
       flex-direction: column;
+   }
+
+   .container-contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .container-contact h2 {
+      text-align: center;
    }
 
 }
