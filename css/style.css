@@ -153,6 +153,7 @@ header {
 
 .cover {
    max-width: 1200px;
+   height: 100%;
    margin: auto;
    margin-top: 100px;
    display: flex;
@@ -397,12 +398,51 @@ header {
    width: 100%;
 }
 
+/* FOOTER */
+
+footer {
+   background: var(--main_color-secundary);
+   padding: 30px 50px;
+   margin: 0
+}
+.container-footer {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.sub-menu {
+   margin: 0px 40px;
+   max-width: 250px;
+   width: 100%;
+}
+
+.sub-menu h3 {
+   color: var(--color_text-third);
+}
+.sub-menu ul {
+   list-style: none;
+}
+
+.sub-menu ul li, a {
+   font-size: 13px;
+   color: var(--color_text-secundary);
+}
+
+footer p {
+   text-align: center;
+   font-size: var(--text_paragraph);
+}
+
+
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 950px) {
+
    .img-cover {
       display: none;
    }
+
    .about {
       flex-wrap: wrap;
       align-items: center;
