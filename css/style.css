@@ -11,11 +11,11 @@
 :root {
    /* Color Option #1 */
    --color_text-primary: #f55d3e;
-   --color_text-secundary: #36393b;
+   --color_text-secundary: aliceblue;
    --color_text-third: #000;
    --main_color-primary: #f55d3e;
-   --main_color-secundary: #a5d8ff;
-   --background-color: #FFFCFF;
+   --main_color-secundary: #2b3237;
+   --background-color: white;
    /* Color Option #2
    --color_text-primary: #F55D3E;
    --color_text-secundary: #6F1D1B;
@@ -104,7 +104,7 @@ header {
 }
 
 .menu nav ul li a {
-   color: var(--color_text-secundary);
+   color: var(--color_text-primary);
    font-size: var(--lowText_font_size);
    position: relative;
 }
@@ -117,6 +117,7 @@ header {
    display: block;
    padding: 8px 40px;
    text-decoration: none;
+   color: var(--color_text-primary);
    border: 2px solid var(--main_color-primary);
    border-radius: 8px;
    font-weight: 500;
@@ -168,13 +169,13 @@ header {
 
 .text-cover h1 {
    font-size: 50px;
-   color: var(--color_text-secundary);
+   color: var(--color_text-primary);
 }
 
 .text-cover p {
    font-size: var(--text_paragraph);
    margin-top: 40px;
-   color: var(--color_text-third);
+   color: var(--color_text-secundary);
 }
 
 .btn-text {
@@ -234,7 +235,7 @@ header {
 .text-cardPrime h1 {
    font-size: var(--text_size_title);
    font-weight: 600;
-   color: var(--color_text-secundary);
+   color: var(--color_text-third);
 }
 
 .container-box-cardPrime {
@@ -417,7 +418,7 @@ footer {
 }
 
 .sub-menu h3 {
-   color: var(--color_text-third);
+   color: var(--color_text-primary);
 }
 .sub-menu ul {
    list-style: none;
@@ -430,6 +431,7 @@ footer {
 
 footer p {
    text-align: center;
+   color: var(--color_text-primary);
    font-size: var(--text_paragraph);
 }
 
