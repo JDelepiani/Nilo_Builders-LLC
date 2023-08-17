@@ -465,6 +465,14 @@ footer p {
       display: flex;
       flex-direction: column;
    }
+
+   footer {
+      margin: 0;
+   }
+   .sub-menu {
+      margin: 0;
+   }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -562,6 +570,13 @@ footer p {
 
    .container-contact h2 {
       text-align: center;
+   }
+
+   footer {
+      margin: 0;
+   }
+   .sub-menu {
+      margin: 0;
    }
 
 }
