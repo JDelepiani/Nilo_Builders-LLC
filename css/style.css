@@ -300,7 +300,7 @@ header {
 }
 
 .text-about h1 {
-   color: var(--color_text-secundary);
+   color: var(--color_text-primary);
    font-weight: 600;
 }
 
@@ -364,6 +364,7 @@ header {
    display: flex;
    align-items: center;
    margin-top: 100px;
+   margin-bottom: 40px;
    padding: 0px 20px;
    background: var(--background-color);
 }
@@ -387,9 +388,15 @@ header {
    display: flex;
    justify-content: space-between;
 }
+
 .frm-contact input[type="text"], .frm-contact input[type="email"] {
    width: 48%;
 }
+
+#name {
+   width: 100%;
+}
+
 .frm-contact input[type="text"], .frm-contact input[type="email"], .frm-contact textarea {
    outline: none;
    background: none;
